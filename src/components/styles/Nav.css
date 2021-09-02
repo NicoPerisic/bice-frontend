@@ -1,0 +1,21 @@
+
+.bv-header{
+background-color: #204fcc;
+
+}
+
+.containerHeader{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+

@@ -1,0 +1,15 @@
+
+    /* active select bar */
+    
+.selectorOn{
+background: #FFFFFF;
+border: 2px solid #1F61F7;
+box-sizing: border-box;
+border-radius: 4px;
+
+font-family: Poppins;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+color: #1F61F7;
+}
