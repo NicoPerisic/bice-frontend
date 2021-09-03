@@ -1,26 +1,33 @@
 import React, { useState } from "react";
 import Info from "./info";
 import Nav from "./components/Nav";
-import Button from "./components/Button";
 import Card from "./components/Card";
-import SelectorOff from "./components/SelectorOff";
+import Selector from "./components/Selector";
 import SelectorOn from "./components/SelectorOn";
 import "./index.css";
+import "./components/styles/Button.css";
 
 export const App = () => {
-  const [, set] = useState();
+  const [selectId, setSelectId] = useState(0);
+  const [cardId, setCardId] = useState(0);
+
+  function onSelect(id) {
+    setCardId(id);
+  }
 
   return (
     <div className="site">
       <Nav />
       <div className="container">
         <div className="selectLine">
-          <SelectorOff />
-          <div></div>
-          <Button />
+          <Selector onChange={setSelectId} />
+          <div>  </div>
+          <button type="submit" className="btn-submit" onClick={(e) => {setCardId(selectId)}}>
+            Botón
+          </button>
         </div>
       </div>
-      <Card />
+      <Card id={cardId}/>
     </div>
   );
 };
