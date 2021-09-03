@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import UrlInfo from "./info";
 import Nav from "./components/Nav";
 import Card from "./components/Card";
 import Selector from "./components/Selector";
-import SelectorOn from "./components/SelectorOn";
 import "./index.css";
 import "./components/styles/Button.css";
 
