@@ -10,7 +10,7 @@
 .base{
     margin-top: 30px;
     width: 328px;
-    height: 272px;
+    height: 610px;
     background: #FFFFFF;
     border: 1px solid #DDE3ED;
     border-radius: 8px;
@@ -28,7 +28,7 @@
     }
     
     .text{
-    width: 51px;
+    width: 321px;
     height: 24px;
     font-family: Poppins;
     font-weight: normal;
@@ -37,23 +37,24 @@
     letter-spacing: -0.2px;
     color: #58606E;
     }
-    
+
     .imgCont{
     width: 328px;
-    height: 192px;
+    height: 280px;
     }
     
     
     .cost {
-    width: 52px;
-    height: 20px;
-    background: #1F61F7;
-    border-radius: 4px;
-    font-family: Poppins;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: -0.2px;
-    color: #F5F7FA;
-    }
+        width: 52px;
+        height: 20px;
+        background: #1F61F7;
+        border-radius: 4px;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -0.2px;
+        color: #F5F7FA;
+        }
+
     
