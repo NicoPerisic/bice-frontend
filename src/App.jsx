@@ -21,7 +21,7 @@ export const App = () => {
           <Selector onChange={setSelectId} />
           <div>  </div>
           <button type="submit" className="btn-submit" onClick={(e) => {setCardId(selectId)}}>
-            Botón
+            Seguir
           </button>
         </div>
       </div>

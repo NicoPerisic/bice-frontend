@@ -5,3 +5,5 @@ Implementar componentes de diseño para crear un selector de seguros conectado a
 
 Se utilizó ReactJS y Javascript.
 
+## Link al deploy:
+https://nicoperisic.github.io/bice-frontend/
