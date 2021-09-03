@@ -11,10 +11,10 @@ const Card = (props) => {
   return (
     <div className="cardContainer">
       <div className="base">
-        <p className="title">{props.name}</p>
-        <p className="text">{props.description}Descript</p>
-        <img src="{img}" classname="imgCont" alt="" />
-        <p className="cost">{props.price}</p>
+        <p className="title">{data.name}</p>
+        <p className="text">{data.description}Descript</p>
+        <img src="{img}" className="imgCont" alt="" />
+        <p className="cost">{data.price}</p>
 
       </div>
     </div>

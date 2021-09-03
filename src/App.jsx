@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Info from "./info";
+import UrlInfo from "./info";
 import Nav from "./components/Nav";
 import Card from "./components/Card";
 import Selector from "./components/Selector";
