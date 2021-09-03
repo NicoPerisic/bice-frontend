@@ -8,7 +8,7 @@ const SelectorOff = () => {
         <label>Planes disponibles</label>
         </div>
         <select className="selector" id="selectInsurance" required>
-          <option value disabled>Selecciona tu plan</option>
+          <option hidden selected>Selecciona tu plan</option>
           <option value='58'>Seguro Vida Activa</option>
           <option value='59'>Seguro Viaje Protegido</option>
         </select>

@@ -14,7 +14,12 @@
     font-size: 12px;
     line-height: 16px;
     color: #AFBACC;
-    }
+}
+
+.selector:focus {
+        border: 1px solid #1f61f7;
+}
+
     
     .selectText{
         display: flex;

@@ -7,21 +7,19 @@ import SelectorOff from "./components/SelectorOff";
 import SelectorOn from "./components/SelectorOn";
 import "./index.css";
 
-
 export const App = () => {
-
+  const [, set] = useState();
 
   return (
-    <div className='site'>
+    <div className="site">
       <Nav />
       <div className="container">
-      <div className='selectLine'>
-        <SelectorOff />
-        <div></div>
-        <Button />
+        <div className="selectLine">
+          <SelectorOff />
+          <div></div>
+          <Button />
         </div>
       </div>
-
       <Card />
     </div>
   );
