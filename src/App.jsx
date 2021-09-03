@@ -1,31 +1,31 @@
 import React, { useState } from "react";
 import Nav from "./components/Nav";
 import Card from "./components/Card";
-<<<<<<< HEAD
-import SelectorOff from "./components/SelectorOff";
-import SelectorOn from "./components/SelectorOn";
-=======
 import Selector from "./components/Selector";
->>>>>>> dev
 import "./index.css";
-import "./components/styles/Button.css"
+import "./components/styles/Button.css";
 
 export const App = () => {
-  const [, set] = useState();
+  const [selectId, setSelectId] = useState(0);
+  const [cardId, setCardId] = useState(0);
+
+  function onSelect(id) {
+    setCardId(id);
+  }
 
   return (
     <div className="site">
       <Nav />
       <div className="container">
         <div className="selectLine">
-          <SelectorOff />
-          <div></div>
-          <button type="submit" className="btn-submit">
-            Botón
+          <Selector onChange={setSelectId} />
+          <div>  </div>
+          <button type="submit" className="btn-submit" onClick={(e) => {setCardId(selectId)}}>
+            Seguir
           </button>
         </div>
       </div>
-      <Card />
+      <Card id={cardId}/>
     </div>
   );
 };

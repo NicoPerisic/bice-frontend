@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/SelectorOn.css'
+import './styles/Selector.css'
 
 const SelectorOn = () => {
     return (
