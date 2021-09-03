@@ -2,12 +2,14 @@ import React from "react";
 import "./styles/Card.css";
 import urlInfo from "../info"
 
-const Card = (props) => {
+function Card() {
   return (
     <div className="cardContainer">
       <div className="base">
-      <p className="title">{props.id}</p>
-
+        <p className="title">{name}</p>
+        <p className="text">{description}</p>
+        <img src="{img}" classname="imgCont" alt="" />
+        <p className="cost">{price}</p>
       </div>
     </div>
   );
