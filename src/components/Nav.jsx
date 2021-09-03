@@ -7,7 +7,7 @@ const Nav = () => {
       <header className="bv-header">
         <div className="containerHeader row">
           <div className="head">
-            <a href="/">
+            <a href="https://nicoperisic.github.io/bice-frontend/">
               <img
                 src="https://ventaenlinea.bicevida.cl/pub/media/bicevida/temav2/img/LOGO_BLANCO_VERDE.png"
                 width='20%'
